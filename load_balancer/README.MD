@@ -11,7 +11,7 @@
 `docker ps` - Get Container ID of server images\
 `docker inspect <server_container_id>` - Get IP address of server client\
 `docker run --privileged -it my-lb /bin/bash`\
-Run `make ` - In the command prompt displayed
+Run `make ` - In the command prompt displayed\
 Run `./lb <Server IPs space seperated>` - In command prompt
 
 ## Build and run client image to send UDP packets on another docker container
