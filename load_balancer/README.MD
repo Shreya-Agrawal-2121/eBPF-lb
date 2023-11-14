@@ -3,13 +3,13 @@
 ## Build  and run the server image on a docker container
 `cd <path  of directory containing server source code>`\
 `docker build -t my-server .`\
-`docker run -it my-server make`\ - Do it on 3 terminals to get 3 servers running
+`docker run -it my-server make` - Do it on 3 terminals to get 3 servers running
 
 ## Build  and run the load balancer image with eBPF loaded on a docker container
 `cd <path  of directory containing load balancer source code>`\
 `docker build -t my-lb .`\
-`docker ps` - Get Container ID of server images
-`docker inspect <server_container_id>` - Get IP address of server client
+`docker ps` - Get Container ID of server images\
+`docker inspect <server_container_id>` - Get IP address of server client\
 `docker run --privileged -it my-lb /bin/bash`\
 Run `make ` - In the command prompt displayed
 Run `./lb <Server IPs space seperated>` - In command prompt
