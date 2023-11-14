@@ -1,3 +1,3 @@
-# C-code applications using XDP eBPF to design
-## UDP based packet dropper
-## UDP based load balancer
+# C-code applications using XDP eBPF
+1. UDP-based packet dropper
+1. UDP-based load balancer
